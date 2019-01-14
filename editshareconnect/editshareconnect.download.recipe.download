@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the current release version of editshare</string>
+    <key>Identifier</key>
+    <string>com.github.ewancolyer1.download.editshareconnect</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Editshare Connect</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.4.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+            	<key>url</key>
+            	<string>http://10.0.10.50/clients/ESC/Install%20EditShare%20Connect%20v7.2.2.0-20180426.221946.e2d8cd6~7.2.2.pkg</string>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+            </dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
