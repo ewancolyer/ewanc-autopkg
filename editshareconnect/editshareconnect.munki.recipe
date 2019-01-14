@@ -38,7 +38,6 @@ to quit Dropbox.</string>
             <string>EditShare Connect</string>
             <key>name</key>
             <string>%NAME%</string>
-</string>
             <key>unattended_install</key>
             <true/>
         </dict>
