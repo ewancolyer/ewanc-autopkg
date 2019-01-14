@@ -3,21 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of Dropbox and imports into Munki.
-
-Postinstall script extracts the DropboxHelperInstaller and sets the setuid
-bit so that it can perform its setup tasks as root without asking for admin
-privileges.
-
-Dropbox will attempt to update periodically, and if it does not have permission to
-overwrite the bundle at /Applications/Dropbox.app, it will instead download
-the updated version to ~/Library/Application Support/Dropbox, and run this version
-as long as it is more recent than the copy in /Applications.
-
-This recipe uses blocking_applications to prevent the installation only if Dropbox
-from /Applications is running. If an updated version from the user's home directory
-is running, Munki can update the version in /Applications without requiring the user
-to quit Dropbox.</string>
+    <string>Downloads and hopefullt installs the latest version of Editshare Connect</string>
     <key>Identifier</key>
     <string>com.github.ewancolyer1.munki.editshareconnect</string>
     <key>Input</key>
@@ -25,7 +11,7 @@ to quit Dropbox.</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/editshareconnect</string>
         <key>NAME</key>
-        <string>Dropbox</string>
+        <string>EditShare Connect</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -45,7 +31,7 @@ to quit Dropbox.</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.ewancolyer1.download.editshareconnect</string>
+    <string>com.github.ewancolyer1.autopkg.editshareconnect</string>
     <key>Process</key>
     <array>
         <dict>
