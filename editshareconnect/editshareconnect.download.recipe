@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of editshare</string>
     <key>Identifier</key>
-    <string>com.github.ewancolyer1.autopkg.download.editshareconnect</string>
+    <string>com.github.ewancolyer1.download.editshareconnect</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
