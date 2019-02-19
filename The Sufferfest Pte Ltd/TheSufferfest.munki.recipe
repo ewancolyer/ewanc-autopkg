@@ -21,11 +21,13 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>The best cycling workouts, More than 50 structured interval workouts designed by world-class coaches. Connect your devices and take our comprehensive 4DP™ fitness test to set personalised performance targets and analyse your data. </string>
 			<key>developer</key>
 			<string>The Sufferfest Pte Ltd</string>
 			<key>display_name</key>
 			<string>TheSufferfest</string>
+			<key>icon_name</key>
+			<string>TheSufferfest.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
