@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://download.thesufferfest.com/download/channel/beta</string>
+		<string>download.thesufferfest.com/download/channel/beta/mac</string>
 		<key>NAME</key>
 		<string>TheSufferfest</string>
 	</dict>
