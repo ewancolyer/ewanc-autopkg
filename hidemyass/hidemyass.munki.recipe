@@ -18,7 +18,7 @@
             <array>
                 <string>testing</string>
             </array>
-            <key>developer</>
+            <key>developer</key>
             <string>HDM!</string>
             <key>category</key>
             <string>Utilities</string>
