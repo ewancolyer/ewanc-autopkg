@@ -38,7 +38,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_path</key>
-                <string>%pathname%/HMA! Pro VPN</string>
+                <string>%pathname%/HMA! Pro VPN.app</string>
                 <key>strict_verification</key>
                 <false/>
                 <key>requirement</key>
