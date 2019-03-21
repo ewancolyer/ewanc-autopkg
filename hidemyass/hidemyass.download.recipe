@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads latest version of HMA Pro VPN.</string>
+    <key>Identifier</key>
+    <string>com.github.ewancolyer.download.hidemyass</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>Hide My Ass VPN</string>
+        <key>DOWNLOAD_URL</key>
+        <string>https://s-mac-sl.avcdn.net/macosx/privax/HMA-Pro-VPN.dmg</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>%DOWNLOAD_URL%</string>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>CodeSignatureVerifier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>input_path</key>
+                <string>%pathname%/HMA! Pro VPN</string>
+                <key>strict_verification</key>
+                <false/>
+                <key>requirement</key>
+                <string>(identifier "com.privax.osx.provpn" or identifier "com.privax.osx.provpn.hmaprovpn" or identifier "96HLSU34RN.group.com.privax.osx.provpn.helper"</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
