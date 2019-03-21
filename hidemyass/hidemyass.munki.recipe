@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Google Chrome disk image and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.google-chrome</string>
+    <string>com.github.ewancolyer.munki.hidemyass</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
