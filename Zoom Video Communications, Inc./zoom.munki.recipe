@@ -5,17 +5,21 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of airhost and imports it into Munki.</string>
+	<string>Downloads the latest version of zoom and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.munki.airhost</string>
+	<string>com.github.ewancolyer1.munki.zoom</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>airhost</string>
+		<string>Zoom</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>Category</key>
+			<string>Communication</string>
+			<key>icon_name</key>
+			<string>zoom.png</string>
 			<key>blocking_applications</key>
 			<array>
 				<string>ZMScreenshot.app</string>
@@ -33,7 +37,7 @@
 			<key>developer</key>
 			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
-			<string>airhost</string>
+			<string>Zoom</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -43,7 +47,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ewancolyer1.download.airhost</string>
+	<string>com.github.ewancolyer1.download.zoom</string>
 	<key>Process</key>
 	<array>
 		<dict>
