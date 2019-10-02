@@ -7,36 +7,36 @@
 		<key>Description</key>
 		<string>Installs the latest version of NewTek NDI Tools.</string>
 		<key>Identifier</key>
-		<string>com.github.ewancolyer1.install.NewTekNDITools/string>
-			<key>Input</key>
-			<dict>
-				<key>NAME</key>
-				<string>NewTek NDI Tools</string>
-			</dict>
-			<key>MinimumVersion</key>
-			<string>1.0.0</string>
-			<key>ParentRecipe</key>
-			<string>com.github.ewancolyer1.download.NewTekNDITools</string>
-			<key>Process</key>
-			<array>
-				<dict>
-					<key>Arguments</key>
-					<dict>
-						<key>dmg_path</key>
-						<string>%pathname%</string>
-						<key>items_to_copy</key>
-						<array>
-							<dict>
-								<key>destination_path</key>
-								<string>/Applications</string>
-								<key>source_item</key>
-								<string>NewTek NDI Tools.app</string>
-							</dict>
-						</array>
-					</dict>
-					<key>Processor</key>
-					<string>InstallFromDMG</string>
-				</dict>
-			</array>
+		<string>com.github.ewancolyer1.install.NewTekNDITools</string>
+		<key>Input</key>
+		<dict>
+			<key>NAME</key>
+			<string>NewTek NDI Tools</string>
 		</dict>
-	</plist>
+		<key>MinimumVersion</key>
+		<string>1.0.0</string>
+		<key>ParentRecipe</key>
+		<string>com.github.ewancolyer1.download.NewTekNDITools</string>
+		<key>Process</key>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>dmg_path</key>
+					<string>%pathname%</string>
+					<key>items_to_copy</key>
+					<array>
+						<dict>
+							<key>destination_path</key>
+							<string>/Applications</string>
+							<key>source_item</key>
+							<string>NewTek NDI Tools.app</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Processor</key>
+				<string>InstallFromDMG</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
