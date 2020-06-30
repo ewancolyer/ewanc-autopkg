@@ -7,7 +7,7 @@
 		<key>Description</key>
 		<string>Installs the latest version of NewTek NDI Tools.</string>
 		<key>Identifier</key>
-		<string>com.github.ewancolyer1.install.NewTekNDITools</string>
+		<string>com.github.ewancolyer.install.NewTekNDITools</string>
 		<key>Input</key>
 		<dict>
 			<key>NAME</key>
@@ -16,7 +16,7 @@
 		<key>MinimumVersion</key>
 		<string>1.0.0</string>
 		<key>ParentRecipe</key>
-		<string>com.github.ewancolyer1.download.NewTekNDITools</string>
+		<string>com.github.ewancolyer.download.NewTekNDITools</string>
 		<key>Process</key>
 		<array>
 			<dict>

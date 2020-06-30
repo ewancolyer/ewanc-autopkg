@@ -7,7 +7,7 @@
 		<key>Description</key>
 		<string>Downloads the latest version of NewTekNDITools.</string>
 		<key>Identifier</key>
-		<string>com.github.ewancolyer1.download.NewTekNDITools</string>
+		<string>com.github.ewancolyer.download.NewTekNDITools</string>
 		<key>Input</key>
 		<dict>
 			<key>DOWNLOAD_URL</key>

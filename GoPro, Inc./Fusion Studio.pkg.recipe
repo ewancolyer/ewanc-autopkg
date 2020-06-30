@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Fusion Studio and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.pkg.FusionStudio</string>
+	<string>com.github.ewancolyer.pkg.FusionStudio</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -20,7 +20,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ewancolyer1.download.FusionStudio</string>
+	<string>com.github.ewancolyer.download.FusionStudio</string>
 	<key>Process</key>
 	<array>
 		<dict>

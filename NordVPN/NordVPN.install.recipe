@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of NordVPN.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.install.NordVPN</string>
+	<string>com.github.ewancolyer.install.NordVPN</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ewancolyer1.download.NordVPN</string>
+	<string>com.github.ewancolyer.download.NordVPN</string>
 	<key>Process</key>
 	<array>
 		<dict>
