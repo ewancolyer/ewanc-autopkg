@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of Garmin Express.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.install.GarminExpress</string>
+	<string>com.github.ewancolyer.install.GarminExpress</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ewancolyer1.download.GarminExpress</string>
+	<string>com.github.ewancolyer.download.GarminExpress</string>
 	<key>Process</key>
 	<array>
 		<dict>

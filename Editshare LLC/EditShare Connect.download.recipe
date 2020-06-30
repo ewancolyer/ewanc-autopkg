@@ -7,7 +7,7 @@
 		<key>Description</key>
 		<string>Downloads the latest version of EditShare Connect.</string>
 		<key>Identifier</key>
-		<string>com.github.ewancolyer1.download.EditShareConnect</string>
+		<string>com.github.ewancolyer.download.EditShareConnect</string>
 		<key>Input</key>
 		<dict>
 			<key>IP_ADDRESS</key>
@@ -21,6 +21,15 @@
 		<string>1.0.0</string>
 		<key>Process</key>
 		<array>
+			<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>IP_ADDRESS CONTAINS "INSERT_IP_ADDRESS_HERE"</string>
+			</dict>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+		</dict>
 			<dict>
 				<key>Arguments</key>
 				<dict>

@@ -7,7 +7,7 @@
 		<key>Description</key>
 		<string>Installs the latest version of EditShare Connect.</string>
 		<key>Identifier</key>
-		<string>com.github.ewancolyer1.install.EditShareConnect</string>
+		<string>com.github.ewancolyer.install.EditShareConnect</string>
 		<key>Input</key>
 		<dict>
 
@@ -17,7 +17,7 @@
 		<key>MinimumVersion</key>
 		<string>1.0.0</string>
 		<key>ParentRecipe</key>
-		<string>com.github.ewancolyer1.download.EditShareConnect</string>
+		<string>com.github.ewancolyer.download.EditShareConnect</string>
 		<key>Process</key>
 		<array>
 			<dict>

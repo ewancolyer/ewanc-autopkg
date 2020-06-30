@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Garmin Express and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.pkg.GarminExpress</string>
+	<string>com.github.ewancolyer.pkg.GarminExpress</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ewancolyer1.download.GarminExpress</string>
+	<string>com.github.ewancolyer.download.GarminExpress</string>
 	<key>Process</key>
 	<array>
 		<dict>

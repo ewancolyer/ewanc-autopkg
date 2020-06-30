@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Garmin Express.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.download.GarminExpress</string>
+	<string>com.github.ewancolyer.download.GarminExpress</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>

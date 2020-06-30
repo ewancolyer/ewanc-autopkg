@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOMAIN</key>
-		<string>INSERT_DOMAIN_HERE</string>
+		<string>example.com</string>
 		<key>DOWNLOAD_URL</key>
 		<string>%DOMAIN%/technician/SimpleHelp%20Technician-macos64-online.dmg</string>
 		<key>NAME</key>
@@ -21,6 +21,15 @@
 	<string>1.0.0</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>DOMAIN CONTAINS "example.com"</string>
+			</dict>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

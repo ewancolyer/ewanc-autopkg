@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of TheSufferfest.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer1.download.TheSufferfest</string>
+	<string>com.github.ewancolyer.download.TheSufferfest</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
