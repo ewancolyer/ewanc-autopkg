@@ -22,6 +22,15 @@
 		<key>Process</key>
 		<array>
 			<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>predicate</key>
+				<string>IP_ADDRESS CONTAINS "INSERT_IP_ADDRESS_HERE"</string>
+			</dict>
+			<key>Processor</key>
+			<string>StopProcessingIf</string>
+		</dict>
+			<dict>
 				<key>Arguments</key>
 				<dict>
 					<key>filename</key>
