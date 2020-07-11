@@ -5,15 +5,15 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of SimpleHelp Technician and imports it into Munki.</string>
+	<string>Downloads the latest version of Remote Support and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.ewancolyer.munki.SimpleHelpTechnician</string>
+	<string>com.github.ewancolyer.munki.RemoteSupport</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/SimpleHelp/%NAME%</string>
 		<key>NAME</key>
-		<string>SimpleHelp Technician</string>
+		<string>Remote Support</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,11 +21,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Technicians log into your SimpleHelp server to connect to customer and remote access computers, and to host presentations.</string>
+			<string>Allow Technicians to log into your device when you join the queue</string>
 			<key>developer</key>
 			<string>SimpleHelp Ltd</string>
 			<key>display_name</key>
-			<string>SimpleHelp Technician</string>
+			<string>Remote Support</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.ewancolyer.download.SimpleHelpTechnician</string>
+	<string>com.github.ewancolyer.download.RemoteSupport</string>
 	<key>Process</key>
 	<array>
 		<dict>
